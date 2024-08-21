@@ -1,0 +1,102 @@
+.syndicates_cantainer{
+    background-color: rgba(0, 0, 0, 0.87);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.card_data{
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+.card_data h4{
+    font-size: 16px;
+    color:  rgb(196, 193, 193);
+    font-weight: 700;
+}
+.card_data h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.card_data p{
+    color:  rgb(196, 193, 193);
+    font-weight: 400;
+    font-size: 15px;
+}
+.card_data h5{
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.card_data h3{
+    border: 1px solid gray;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    padding-bottom: 40px;
+    cursor: pointer;
+    ;
+}
+.share{
+    color: white;
+    height: fit-content;
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+border: 1px solid gray;
+    
+}
+.show{
+    color: rgb(193, 193, 196);
+}
+hr{
+    width: 2px solid red;
+}
+.btn-syndicates{
+    background-image: linear-gradient(to right, #f5993c 0%, #f76b1c 51%, #f5993c 100%);
+}
+
+.imageSize{
+    width: 120px;
+}
+.border-left-custom{
+    display: block;
+    border-left: 3px solid #E25F2C;
+    max-height: 5rem;
+    min-height: 3rem;
+    padding-left:10px;
+    margin-left: -10px;
+}
+@media screen and (max-width:720px) {
+    .border-left-custom{
+        max-height: fit-content;
+        margin-bottom: 0px;
+    }
+}
+.heading-1,.heading-2{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.heading-2{
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.advantages,.prizes {
+    list-style: circle;
+    padding-left: 0; 
+}
+.advantages li,.total-shares li,.prizes li {
+    font-size: 16px;
+}
+.total-shares{
+    padding-left: 0;
+    list-style: decimal;
+}
+.horizontalLine{
+    width: 3px solid red;
+}
+.lotterySystem p {
+    color: #7a7a7a !important;
+}

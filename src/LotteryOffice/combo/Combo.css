@@ -1,0 +1,31 @@
+.combo_container{
+    background-color: rgba(0, 0, 0, 0.87);
+        padding-top: 40px;
+        padding-bottom: 40px;
+}
+.combo{
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.combo_container img{
+    width: 7rem;
+    height: 7rem;
+}
+.combo_container h4{
+    font-size: 18px;
+    color: white;
+}
+.combo_container h5{
+    color: rgb(196, 193, 193);
+    font-size: 16px;
+}
+.combo_container h2{
+    color: white;
+}
+.combo_container p{
+    font-size: 14px;
+    color: rgb(196, 193, 193);
+}
+.faqs:hover{
+    color: #3ea5ed;
+}

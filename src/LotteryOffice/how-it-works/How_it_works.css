@@ -1,0 +1,28 @@
+.YoutubeVideo{
+    height: 31rem;
+    cursor: pointer;
+}
+.how-it-works-container{
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.works-card{
+    max-width: 30% !important;
+    border: 1px solid gray;
+}
+.works-play{
+    background: linear-gradient(to top left, #4c4d4a 0%, #464d50 100%);
+}
+.works-play button{
+    background-color: rgb(80, 157, 240);
+}
+.works-play h4{
+    color: white;
+}
+@media screen and (max-width:720px) {
+    .YoutubeVideo{
+        height: 100%;
+    }
+    .works-card{
+        max-width: 90% !important;
+    }
+}

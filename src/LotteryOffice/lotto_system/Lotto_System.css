@@ -1,0 +1,38 @@
+.lotto-system-container{
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.lotto-system-container h4{
+    font-size: 16px;
+    margin: 0;
+    color: white;
+}
+.systemTable{
+    width: 80%;
+}
+@media screen and (max-width:720px) {
+    .systemTable{
+        width: 100%;
+    }
+}
+.head1 ,.head1 th{
+    background-color: #2c68a5;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.head2,.head2 th{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #38a4d0;
+}
+table tr th{
+    font-size: 14px;
+}
+.usaLottoSystem{
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.system-btn:hover{
+    border: 2px solid white;
+}
